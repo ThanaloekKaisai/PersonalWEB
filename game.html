@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game: Dodge the Falling Objects</title>
+    <link rel="stylesheet" href="css/style_game.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="cv.html">Personal Information</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="gameContainer">
+        <h1>Dodge the Falling Objects</h1>
+        <canvas id="gameCanvas" width="500" height="500"></canvas>
+        <p id="score">score: 0</p>
+        
+        <div id="controls">
+            <button id="leftButton">←</button>
+            <button id="rightButton">→</button>
+        </div>
+        
+        <!-- ปุ่มแสดงเมื่อเกมจบ -->
+        <div id="gameOverButtons" class="hidden">
+            <button id="restartButton">Try Again</button>
+            <button id="homeButton">Home</button>
+            <button id="infoButton">Personal Information</button>
+        </div>
+
+        <!-- ปุ่มเริ่มเกมใหม่ -->
+        <div id="newGameButtonContainer" class="hidden">
+            <button id="newGameButton">เริ่มเกมใหม่</button>
+        </div>
+    </div>
+
+    <script src="script/game.js"></script>
+</body>
+</html>
