@@ -162,7 +162,7 @@ restartButton.addEventListener('click', () => {
 });
 
 // ปุ่ม Home และ Info
-homeButton.addEventListener("click", () => window.location.href = "home.html");
+homeButton.addEventListener("click", () => window.location.href = "index.html");
 infoButton.addEventListener("click", () => window.location.href = "cv.html");
 
 // เมื่อคลิกปุ่ม "เริ่มเกมใหม่"
